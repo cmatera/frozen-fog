@@ -1,6 +1,6 @@
 {
-  "name": "Automaticator",
-  "description": "Automatic API Demo Application",
+  "name": "FrozenFog",
+  "description": "Automatic API Application",
   "version": "0.0.4",
   "engines": {
     "node": "0.10.x",
