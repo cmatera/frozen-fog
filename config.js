@@ -38,7 +38,7 @@ module.exports = function(app){
       .use(express.logger({buffer: 10000}))
       .use(express.errorHandler())
       .enable('prod')
-      .set('domain', 'automaticator-stage.herokuapp.com');
+      .set('domain', 'frozen-fog.herokuapp.com/');
 
     app.all('*',function(req, res, next) {
       if(req.headers['x-forwarded-proto'] != 'https') {
@@ -55,7 +55,7 @@ module.exports = function(app){
       .use(express.logger({buffer: 10000}))
       .use(express.errorHandler())
       .enable('prod')
-      .set('domain', 'automaticator.herokuapp.com');
+      .set('domain', 'frozen-fog.herokuapp.com/');
 
     app.all('*',function(req, res, next) {
       if(req.headers['x-forwarded-proto'] != 'https') {
