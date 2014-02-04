@@ -1,18 +1,7 @@
-# Automaticator
+# Frozen Fog
 
+Data aggregation using the Automatic Webhook API...
 A node.js app to demonstrate the use of the [_Automatic_ Webook API](http://automatic.com/developer/).  It shows driving events, such as ignition on, for the logged in user in real time on a map.
-
-The [_Automatic_ API](http://automatic.com/developer/) exposes data collected by [_Automatic_](http://automatic.com), a small device that syncs your car's computer with your phone.
-
-## Demo
-
-A version of this application is available at [https://automaticator.herokuapp.com](https://automaticator.herokuapp.com).
-
-## Running
-
-### Install required packages from NPM:
-
-    npm install
 
 ### Configure your client id and client secret
 
